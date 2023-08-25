@@ -1,0 +1,130 @@
+#about-background {
+  background-image: url("https://cdn.discordapp.com/attachments/1138141319181631518/1142801741948129330/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+  padding: 50px 80px;
+}
+
+.about-alive-top {
+  background-color: #f9ecdc;
+  padding: 140px 180px 50px 180px;
+  border-radius: 488px 488px 0 0;
+}
+
+.gutter {
+  --bs-gutter-x: 80px;
+  --bs-gutter-y: 80px;
+}
+
+.about-alive-top-img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.about-title h5,
+.about-title-2 h5 {
+  font-size: 26px;
+  font-weight: 700;
+  color: #ce6c51;
+}
+
+.about-title-2 {
+  margin-top: 50px;
+}
+
+.about-desc p {
+  color: #4A160B;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-align: justify;
+  font-size: 16px;
+}
+
+@media (max-width: 1400px) {
+  .about-alive-top {
+    padding: 140px 150px 50px 150px;
+    border-radius: 400px 400px 0 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .about-alive-top {
+    padding: 120px 120px 50px 120px;
+    border-radius: 300px 300px 0 0;
+  }
+
+  .about-text {
+    margin-top: 50px;
+  }
+
+  .about-title h5,
+  .about-title-2 h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-alive-top {
+    padding: 120px 100px 100px 100px;
+    border-radius: 250px 250px 0 0;
+  }
+}
+
+@media (max-width: 768px) {
+  #about-bg {
+    padding: 40px;
+  }
+
+  .about-alive-top {
+    padding: 120px 60px 50px 60px;
+    border-radius: 180px 180px 0 0;
+  }
+
+  .about-title h5,
+  .about-title-2 h5 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 500px) {
+  #about-bg {
+    padding: 30px;
+  }
+
+  .about-alive-top {
+    padding: 50px 20px 30px 20px;
+    border-radius: 100px 100px 0 0;
+  }
+
+  .about-text {
+    margin-top: 30px;
+  }
+
+  .about-title h5,
+  .about-title-2 h5 {
+    font-size: 22px;
+  }
+
+  .about-desc p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 375px) {
+  #about-bg {
+    padding: 20px;
+  }
+
+  .about-alive-top {
+    padding: 50px 20px 30px 20px;
+    border-radius: 70px 70px 0 0;
+  }
+
+  .about-desc p {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,444 @@
+#landing-bg {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144595887260188782/landing_1920x3325.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  overflow-x: hidden;
+}
+
+.alive-title-img {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.timer-container {
+  margin-top: 70px;
+  width: 80%;
+  height: 85%;
+  border-radius: 50px;
+  background-image: url("https://cdn.discordapp.com/attachments/1135924428300099595/1142417280156831854/image.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.countdown-title {
+  color: #78382D;
+  margin: 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.timer-number-1,
+.timer-number-2,
+.timer-number-3,
+.timer-number-4 {
+  font-weight: 700;
+  color: #F9ECDD;
+  font-family: "Lemon/Milk", sans-serif;
+  margin: 0 20px 0 0;
+}
+
+.timer-row,
+.timer-info {
+  width: 70%;
+  position: absolute;
+}
+
+.timer-info {
+  color: #F9ECDD;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.countdown-text {
+  position: relative;
+  left: 80%;
+  top: 40%;
+  transform: rotate(270deg);
+}
+
+.countdown-text h3 {
+  font-size: 72px;
+  font-family: "Lemon/Milk", sans-serif;
+  margin: 0;
+  color: #CE6C51;
+}
+
+.timer-info-1 {
+  left: 60%;
+  margin-bottom: 26px;
+}
+
+.timer-info-2 {
+  left: 55%;
+  margin-bottom: 26px;
+}
+
+.timer-info-3 {
+  left: 40%;
+  margin-bottom: 16px;
+}
+
+.timer-info-4 {
+  left: 35%;
+  margin-bottom: 10px;
+}
+
+.timer-row-1 {
+  top: 20%;
+}
+
+.timer-row-2 {
+  top: 40%;
+}
+
+.timer-row-3 {
+  top: 60%;
+}
+
+.timer-row-4 {
+  top: 75%;
+}
+
+.timer-number-1 {
+  font-size: 110px;
+}
+
+.timer-number-2 {
+  font-size: 100px;
+}
+
+.timer-number-3 {
+  font-size: 65px;
+}
+
+.timer-number-4 {
+  font-size: 50px;
+}
+
+.register-container {
+  margin-top: 30px;
+}
+
+.register-container a {
+  text-decoration: none;
+  width: 100%;
+}
+
+.register-btn {
+  width: 100%;
+  border-radius: 50px;
+  height: 60px;
+  border: none;
+  background-color: #CE6C51;
+  color: white;
+  font-size: 48px;
+  padding: 50px;
+  transition: 0.2s ease-in-out;
+}
+
+.register-btn:hover {
+  background-color: #a73617;
+  color: white;
+}
+
+@media (max-width: 1440px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144599205323735121/landing_1440x3845.png");
+  }
+}
+
+@media (max-width: 1024px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144607665088114738/landing_1024x3738.png");
+  }
+}
+
+@media (max-width: 1400px) {
+  .countdown-title {
+    font-size: 27px;
+  }
+
+  .countdown-text {
+    left: 82%;
+    top: 48%;
+  }
+
+  .countdown-text h3 {
+    font-size: 65px;
+  }
+
+  .timer-number-1 {
+    font-size: 100px;
+  }
+
+  .timer-number-2 {
+    font-size: 90px;
+  }
+
+  .timer-number-3 {
+    font-size: 55px;
+  } 
+
+  .timer-number-4 {
+    font-size: 40px;
+  }
+
+  .timer-info {
+    font-size: 22px;
+  }
+}
+
+@media (max-width: 1201px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144620406876143696/landing_1200x3798.png");
+  } 
+
+  .countdown-title {
+    font-size: 20px;
+  }
+
+  .countdown-text {
+    left: 90%;
+    top: 50%;
+  }
+
+  .countdown-text h3 {
+    font-size: 52px;
+  }
+
+  .timer-number-1 {
+    font-size: 80px;
+  }
+
+  .timer-number-2 {
+    font-size: 70px;
+  }
+
+  .timer-number-3 {
+    font-size: 50px;
+  }
+
+  .timer-number-4 {
+    font-size: 40px;
+  }
+
+  .timer-info {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 992px) {
+  #landing-bg {
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144632211174342766/landing_991x4673.png");
+  }
+
+  .timer-container {
+    width: 450px;
+    height: 520px;
+    margin: 0 auto;
+  }
+
+  .countdown-title {
+    font-size: 32px;
+  }
+
+  .countdown-text {
+    left: 75%;
+    top: 38%;
+  }
+
+  .countdown-text h3 {
+    font-size: 72px;
+  }
+
+  .timer-number-1 {
+    font-size: 110px;
+  }
+
+  .timer-number-2 {
+    font-size: 100px;
+  }
+
+  .timer-number-3 {
+    font-size: 65px;
+  }
+
+  .timer-number-4 {
+    font-size: 50px;
+  }
+
+  .timer-info {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .timer-container {
+    margin: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .alive-img {
+    width: 95%;
+  }
+
+  .timer-container {
+    width: 350px;
+    padding: 2.3rem !important;
+    height: 400px;
+    margin: 0 auto;
+    z-index: 0;
+  }
+
+  .countdown-title {
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  .countdown-text h3 {
+    display: none;
+  }
+
+  .timer-number-1 {
+    font-size: 80px;
+  }
+
+  .timer-number-2 {
+    font-size: 70px;
+  }
+
+  .timer-number-3 {
+    font-size: 60px;
+  }
+
+  .timer-number-4 {
+    font-size: 50px;
+  }
+
+  .timer-info {
+    font-size: 22px;
+  }
+
+  .timer-info-1,
+  .timer-info-2 {
+    margin-bottom: 18px;
+  }
+
+  .timer-info-3 {
+    margin-bottom: 13px;
+  }
+
+  .countdown {
+    position: relative;
+  }
+
+  .stars {
+    overflow-x: hidden;
+    z-index: 1;
+  }
+
+  .star-left,
+  .star-right {
+    position: absolute;
+    width: 150px;
+  }
+
+  .star-left {
+    left: -15px;
+    top: 50%;
+  }
+
+  .star-right {
+    right: -15px;
+    top: 50%;
+  }
+
+  .register-btn {
+    font-size: 30px;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 577px) {
+  #landing-bg {
+    margin-top: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/1144289062031724616/1144638777348870305/landing_576x4715.png");
+  }
+
+  .star-left {
+    left: 0;
+    top: 50%;
+  }
+
+  .star-right {
+    right: 0;
+    top: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .star-left,
+  .star-right {
+    width: 100px;
+  }
+}
+
+@media (max-width: 450px) {
+  .star-left,
+  .star-right {
+    width: 90px;
+  }
+
+  .timer-container {
+    width: 290px;
+    height: 340px;
+  }
+
+  .countdown-title {
+    font-size: 23px;
+  }
+
+  .timer-number-1,
+  .timer-number-2,
+  .timer-number-3,
+  .timer-number-4 {
+    margin-top: 15px;
+  }
+
+  .timer-number-1 {
+    font-size: 70px;
+  }
+
+  .timer-number-2 {
+    font-size: 60px;
+  }
+
+  .timer-number-3 {
+    font-size: 50px;
+  }
+
+  .timer-number-4 {
+    font-size: 40px;
+  }
+
+  .timer-info {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 370px) {
+  .star-left,
+  .star-right {
+    width: 65px ;
+  }
+}

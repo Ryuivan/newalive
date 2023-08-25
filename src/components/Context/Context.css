@@ -1,0 +1,34 @@
+.putihNews-bg {
+  background-image: url("https://media.discordapp.net/attachments/1139426470901600336/1139428451330302074/putihNews-bg.webp?width=840&height=426");
+  height: 600px;
+  display: block;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.abuNews-bg {
+  height: 250px;
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+  z-index: 1;
+}
+
+.contextNews {
+  line-height: 1.5;
+  position: absolute;
+  max-width: 1050px;
+  padding-top: 490px;
+  display: relative;
+  z-index: 2;
+}
+
+.contextNews p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: justify;
+  font-weight: 700;
+  color: white;
+  word-spacing: 55px;
+}

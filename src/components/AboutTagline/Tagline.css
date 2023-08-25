@@ -1,0 +1,48 @@
+.tagline-title {
+  background-color: #304C2E;
+  color: #FFF2E3;
+  padding: 15px 65px;
+  text-align: center;
+  font-size: 26px;
+  border-radius: 50px;
+}
+
+.tagline-title p {
+  margin: 0;
+}
+
+.tagline-text {
+  margin: 20px 0;
+}
+
+.tagline-text h4 {
+  color: #f9ecdc;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+
+.tagline-desc h5 {
+  max-width: 750px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #B4C291;
+  font-weight: 600;
+  text-align: center;
+  margin: 0;
+}
+
+@media (max-width: 500px) {
+  .tagline-title {
+    padding: 15px 40px;
+    font-size: 20px;
+  }
+
+  .tagline-text h4 {
+    font-size: 30px;
+  }
+
+  .tagline-desc h5 {
+    font-size: 16px;
+  }
+}

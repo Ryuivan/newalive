@@ -1,0 +1,52 @@
+.hospital-bg {
+  overflow: hidden !important;
+  max-width: 100vw;
+  height: 850px;
+  background-image: url("https://cdn.discordapp.com/attachments/1138492028599144569/1142813851348369428/image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+
+.hospital-bg h1 {
+  font-size: 250px;
+  font-weight: 700;
+  color: #CE6C51;
+  text-align: center;
+}
+
+.hospital-bg h4 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.hospital-bg h4:last-of-type {
+  font-weight: 300;
+}
+
+.go-back {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  background-color: #576A4E;
+  border-radius: 25px;
+  border: none;
+  padding: 10px 65px;
+  transition: 0.2s ease-in-out;
+}
+
+.go-back:hover {
+  background-color: #34422d;
+}
+
+@media (max-width: 500px) {
+  .hospital-bg h1 {
+    font-size: 150px;
+  }
+
+  .hospital-bg h4 {
+    font-size: 18px;
+  }
+}

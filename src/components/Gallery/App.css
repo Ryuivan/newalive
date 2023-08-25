@@ -1,0 +1,356 @@
+@import url("https://fonts.cdnfonts.com/css/montserrat-subrayada");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+.gallery-pleno1-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: start;
+    align-items: center;
+    z-index: 999;
+    position: relative;
+}
+
+.gallery-bg-image{
+    max-width: 100%;
+    height: auto;
+    background-image: url("https://cdn.discordapp.com/attachments/1138154440512241845/1142464515301199963/Rectangle_3.png");
+    background-repeat: repeat;
+}
+
+.gallery-pleno1-container .gallery-pleno1-heading{
+    width: 93%;
+    padding-bottom: 40px;
+}
+
+.gallery-pleno1-container .gallery-pleno1-heading h1{
+    font-family:  "Montserrat Subrayada";
+    font-size: 6rem;
+    color: #FFF2E3;
+}
+
+.gallery-pleno1-container .gallery-pleno1-heading h3{
+    font-family: "Montserrat";
+    font-size: 1.3rem;
+    margin-top: -100px;
+    color: #FFF2E3;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    width: 30.5%;
+    height: auto;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column img{
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column img:hover{
+    transform: scale(1.05);
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    width: 39.5%;
+    align-items: end;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) {
+    display: flex;
+    flex-direction: column;
+    width: 39.5%;
+    align-items: start;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) img{
+    width: 90%;
+    height: 238px;
+    padding-bottom: 20px;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img{
+    width: 90%;
+    height: 238px;
+    padding-bottom: 20px;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) img{
+    width: 80%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(5){
+    width: 90%;
+    height: 284px;
+    padding-bottom: 20px;
+}
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(6){
+    width: 90%;
+    height: 283px;
+    padding-bottom: 20px;
+}
+.gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(7){
+    width: 90%;
+    height: 284px;
+    padding-bottom: 20px;
+}
+
+.gallery-bg-wave-top{
+    min-width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-bg-wave-top .gallery-bg-wave2{
+    padding-bottom: 500px;
+    width: 100%;
+    height: auto;
+    background-image: url("https://cdn.discordapp.com/attachments/1138154440512241845/1142464375052046398/Group_44.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+.gallery-bg-wave-bottom{
+    min-width: 100%;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-bg-wave-bottom .gallery-bg-wave1{
+    padding-bottom: 500px;
+    width: 100%;
+    height: auto;
+    background-image: url("https://cdn.discordapp.com/attachments/1138154440512241845/1142459865772609647/Group_45.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 769px) {
+    .gallery-pleno1-container .gallery-pleno1-row{
+        flex-direction: column;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) img{
+        width: 450px !important;
+        height: auto !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) {
+        width: 100%;
+        align-items: center;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) {
+        width: 100%;
+        align-items: center;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img{
+        width: auto !important;
+        height: 300px !important;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) {
+        width: 100%;
+        align-items: center;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) img{
+        width: auto !important;
+        height: 300px !important;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) img{
+        width: 80%;
+        height: 100%;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(4){
+        width: auto !important;
+        height: 350px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(5){
+        width: auto !important;
+        height: 350px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(6){
+        width: auto !important;
+        height: 350px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(7){
+        width: auto !important;
+        height: 350px !important;
+    }
+
+    .gallery-bg-wave-bottom{
+        margin-top: 100px;
+    }
+
+    .gallery-bg-wave-bottom .gallery-bg-wave1{
+        padding-bottom: 300px;
+    }
+
+    .gallery-bg-wave-top .gallery-bg-wave2{
+        padding-bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 634px) {
+    .gallery-pleno1-container .gallery-pleno1-heading{
+        width: 100%;
+        padding-bottom: 40px;
+        text-align: center;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-heading h1{
+        font-family:  "Montserrat Subrayada";
+        font-size: 3rem;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-heading h3{
+        font-family: "Montserrat";
+        font-size: 1rem;
+        margin-top: -45px;
+    }
+}
+
+@media screen and (max-width: 565px) {
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) img{
+        width: 355px !important;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img{
+        height: 200px !important;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) img{
+        height: 235px !important;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(4){
+        height: 235px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(5){
+        height: 235px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(6){
+        height: 235px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(7){
+        height: 235px !important;
+    }
+
+    .gallery-bg-wave-bottom{
+        margin-top: 40px;
+    }
+
+    .gallery-bg-wave-bottom .gallery-bg-wave1{
+        padding-bottom: 200px;
+    }
+
+    .gallery-bg-wave-top .gallery-bg-wave2{
+        padding-bottom: 200px;
+    }
+}
+
+@media screen and (max-width: 413px) {
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(2) img{
+        width: 210px !important;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img{
+        height: 120px !important;
+    }
+    
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(3) img{
+        height: 140px !important;
+    }
+
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(4){
+        height: 140px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(5){
+        height: 140px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(6){
+        height: 140px !important;
+    }
+    .gallery-pleno1-container .gallery-pleno1-row .gallery-pleno1-column:nth-child(1) img:nth-child(7){
+        height: 140px !important;
+    }
+
+    .gallery-bg-wave-bottom{
+        margin-top: 0px;
+    }
+
+    .gallery-bg-wave-bottom .gallery-bg-wave1{
+        padding-bottom: 150px;
+    }
+
+    .gallery-bg-wave-top .gallery-bg-wave2{
+        padding-bottom: 150px;
+    }
+}
+/* Modal */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(27, 27, 27, 0.938);
+    display: flex;
+    align-items: center;
+    z-index: 3;
+  }
+  .overlay img {
+    display: block;
+    max-width: 60%;
+    max-height: 80%;
+    margin: 60px auto;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+  }
+  
+  .overlay > span {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    font-size: 40px;
+    font-family: "Montserrat-Subrayada";
+    color: #ffffff;
+    z-index: 3;
+    cursor: pointer;
+    transition: all 3ms ease-in-out;
+  }
